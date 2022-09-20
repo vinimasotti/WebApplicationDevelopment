@@ -1,5 +1,5 @@
 body{
-	background-color: #ffffff;
+	background-color: #e9e6e6;
 	font-family: Arial, sans-serif, Helvetics;
 	margin:0; 
 	padding:0;
@@ -7,10 +7,10 @@ body{
 	
 }
 
-h2{
-	font size:14px
-	color: blue
+h2 {
+	color: green
 }
+
 
 
 tr {
