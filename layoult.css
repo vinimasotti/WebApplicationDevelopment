@@ -1,5 +1,5 @@
 body{
-	background-color: #e9e6e6;
+	background-color: #bdbdbd;
 	font-family: Arial;
 	color: blue
 	size: 11pt
@@ -9,21 +9,18 @@ body{
 	
 }
 
-h2 {
-	font-family: Arial
-	color: blue
-	font-size 14pt
+title {
+	size: 50pt
 }
 
+h2 {/**actually represented by h1**/
+	font-family: Arial;
+	color: blue;
+	size: 14pt
+ } 
 
-
-tr {
-	border-bottom: 1px solid rgb(39, 173, 21);
-}
-
-h1 {
-	
-	font-family: Verdana
-	size: 20pt
-	}
+ h1 { /** title**/
+	font-family: Verdana;
+	font-size: 20pt;
+ }
 	
