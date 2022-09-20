@@ -1,14 +1,19 @@
 body{
-	background-color: #2F4858;
-	font-family: Arial, Helvetica, sans-serif;
-	margin:0;
+	background-color: #ffffff;
+	font-family: Arial, sans-serif, Helvetics;
+	margin:0; 
 	padding:0;
 	 /*reset the body font to 10px*/
 	
 }
 
+h2{
+	font size:14px
+	color: blue
+}
+
 
 tr {
-	border-bottom:1px solid black;
+	border-bottom: 1px solid rgb(39, 173, 21);
 }
 	
