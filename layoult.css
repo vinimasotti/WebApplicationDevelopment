@@ -1,6 +1,8 @@
 body{
 	background-color: #e9e6e6;
-	font-family: Arial, sans-serif, Helvetics;
+	font-family: Arial;
+	color: blue
+	size: 11pt
 	margin:0; 
 	padding:0;
 	 /*reset the body font to 10px*/
@@ -8,7 +10,9 @@ body{
 }
 
 h2 {
-	color: green
+	font-family: Arial
+	color: blue
+	font-size 14pt
 }
 
 
@@ -16,4 +20,10 @@ h2 {
 tr {
 	border-bottom: 1px solid rgb(39, 173, 21);
 }
+
+h1 {
+	
+	font-family: Verdana
+	size: 20pt
+	}
 	
