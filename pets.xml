@@ -1,0 +1,203 @@
+<?xml-stylesheet type="text/css" href="pets.css" ?>
+
+
+<pets>
+	<pet>
+		<petID number = "7" > 
+		<name> Paul </name>
+		<category> Cat </category>
+		<breed> Siamese </breed>
+		<dateAdopted> 01/25/2011 </dateAdopted>
+		<gender> male </gender>
+		<registered> CFA </registered>
+		<color> black </color>
+		<listPrice> $279.54 </listPrice>
+		</petID>
+	</pet>
+
+
+	<pet>
+		<petID number = "8">  
+		<name> Miranda</name>
+		<category> Dog</category>
+		<breed> Norfolk Terrier </breed>
+		<dateAdopted> 05/04/2011 </dateAdopted>
+		<gender> female </gender>
+		<registered> AKC </registered>
+		<color> Red </color>
+		<listPrice> $203.75 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "10"> 
+		<name> Sherri </name>
+		<category> dog </category>
+		<breed> Siberian Huskie </breed>
+		<dateAdopted> 13/09/2011 </dateAdopted>
+		<gender> female </gender>
+		<registered> AKC </registered>
+		<color> black/white </color>
+		<listPrice> $166.79 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "11"> 
+		<name> Susan </name>
+		<category> dog </category>
+		<breed> dalmation </breed>
+		<dateAdopted> 22/01/2011 </dateAdopted>
+		<gender> female </gender>
+		<registered> AKC </registered>
+		<color> spotted </color>
+		<listPrice> $164.96 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "12"> 
+		<name> Leisha </name>
+		<category> dog </category>
+		<breed> Rottweiler  </breed>
+		<dateAdopted> 13/06/2011 </dateAdopted>
+		<gender> female </gender>
+		<registered> AKC </registered>
+		<color> brown </color>
+		<listPrice> $164.06 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "13"> 
+		<name> sheena </name>
+		<category> fish </category>
+		<breed> tetra </breed>
+		<dateAdopted> 01/03/2011 </dateAdopted>
+		<gender> male </gender>
+		<registered> Not registered </registered>
+		<color> red </color>
+		<listPrice> $12.00 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "14"> 
+		<name> tina </name>
+		<category> cat </category>
+		<breed> sphynx </breed>
+		<dateAdopted> 06/01/2011 </dateAdopted>
+		<gender> female </gender>
+		<registered> CFA </registered>
+		<color> gold </color>
+		<listPrice> $143.94 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "15"> 
+		<name> Bonita </name>
+		<category> dog </category>
+		<breed> cocker spaniel </breed>
+		<dateAdopted> 21/10/2011 </dateAdopted>
+		<gender> female </gender>
+		<registered> AKC </registered>
+		<color> gold </color>
+		<listPrice> $284.85 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "16"> 
+		<name> Lisa </name>
+		<category> dog </category>
+		<breed> great pyrenees </breed>
+		<dateAdopted> 05/01/2011 </dateAdopted>
+		<gender> female </gender>
+		<registered> AKC </registered>
+		<color> brown </color>
+		<listPrice> $274.35 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "17">
+		<name> Jackie </name>
+		<category> dog </category>
+		<breed> doberman </breed>
+		<dateAdopted> 12/04/2011 </dateAdopted>
+		<gender> male </gender>
+		<registered> AKC </registered>
+		<color> black </color>
+		<listPrice> $165.73 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "18"> 
+		<name> alisson </name>
+		<category> cat </category>
+		<breed> manx </breed>
+		<dateAdopted> 12/04/2011 </dateAdopted>
+		<gender> female </gender>
+		<registered> CFA </registered>
+		<color> black </color>
+		<listPrice> $215.92 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "21"> 
+		<name> Debbie </name>
+		<category> bird </category>
+		<breed> cockatiel </breed>
+		<dateAdopted> 14/01/2011 </dateAdopted>
+		<gender>  female</gender>
+		<registered> Not registered </registered>
+		<color> blue  </color>
+		<listPrice> $177.88 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "27"> 
+		<name> gina </name>
+		<category> reptile </category>
+		<breed> gila monster </breed>
+		<dateAdopted> 11/03/2011 </dateAdopted>
+		<gender> male </gender>
+		<registered> not regisered </registered>
+		<color> green </color>
+		<listPrice> $192.08 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "28"> 
+		<name> Harry  </name>
+		<category> spider </category>
+		<breed> tarantula </breed>
+		<dateAdopted> 07/02/2011 </dateAdopted>
+		<gender> male </gender>
+		<registered>not registered </registered>
+		<color> black </color>
+		<listPrice> $45.00 </listPrice>
+		</petID>
+	</pet>
+
+	<pet>
+		<petID number = "43"> 
+		<name> chelsea </name>
+		<category> reptile </category>
+		<breed> python </breed>
+		<dateAdopted> 10/02/2011 </dateAdopted>
+		<gender> female </gender>
+		<registered>not registered </registered>
+		<color> black/gold </color>
+		<listPrice> $237.90 </listPrice>
+		</petID>
+	</pet>
+
+
+
+</pets>
