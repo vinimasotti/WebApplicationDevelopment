@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    <xsl:output method="html"/>
+
+    <!-- TODO customize transformation rules 
+         syntax recommendation http://www.w3.org/TR/xslt 
+    -->
+    <xsl:template match="/">
+        <html>
+            <head>
+                <title>Book Page</title>
+            </head>
+            <body>
+                <h1>Books- All titles</h1>
+                <xsl:apply-templates select="catalog/book/title"/>
+                 <h1>Books- Fantasy</h1>
+                <xsl:apply-templates select="/catalog/book/genre[contains(string(), 'Fantasy')]"/>
+                <!--<h1>Books published after 2001:</h1>
+                <xsl:apply-templates select="/catalog/book[publish[publish_date>'2001']]"/>-->
+            </body>
+        </html>
+    </xsl:template>
+    
+    <xsl:template match="title">
+        <p>
+            <xsl:value-of select="title"/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="title">
+        <ul>
+            <li>
+                <xsl:value-of select="."/>
+            </li>
+        </ul>
+    </xsl:template>
+    
+    <xsl:template match="genre">
+       
+   
+        <xsl:value-of select="../@id"/>
+           
+    </xsl:template>
+    <!--
+    <xsl:template  match ="book">
+        <p>
+            <xsl: value-of select="title"/>
+        </p>
+    </xsl:template> -->
+    
+
+</xsl:stylesheet>
