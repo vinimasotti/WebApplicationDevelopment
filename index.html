@@ -1,54 +1,164 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<head>
-	<title>.......Web Application Development........</title>
-	<link rel= "stylesheet" href="layoult.css"> 
-	</head>
-
+<link rel="stylesheet" href="simple-layout.css">
+</head>
 <body>
-<h1> <a href="https://mymoodle.ncirl.ie/course/view.php?id=1142"> Web Aplication Development</a> </h1>
-<h2> Aims </h2>
-<ul>
-<li> Enable students to understand and develop <b> responsive, future proof </b> and <b>scalable</b> applications. </li>
-<li> Introduce different web-based languages </li>
-<li> Extend functionality of Web pages using <b> client-side scripting languages</b>. </li>
-<li> Implement<b> server side scripting</b>. and develop advanced-server develop advanced-server side functionality. </li>
-<li> Critique frameworks, tools, languages, and controls available for developing a <b>rich Internet application.</b> </li>
-<li> Evaluate the Pros and Cons of using client-side scripting versus server-side scripting. </li>
-</ul>
+<div id="content-wrapper">
 
-<h2> Learning Outcomes </h2>
-<ol>
-<li> Manipulate and define data structures using a mark-up language.</li>
-<li> Implement server-side scripting and develop advanced server-side functionality. </li>
-<li> Critique frameworks, tools, languages, and controls available for developing a rich Internet application. </li>
-<li> Extend the functionality of Web pages using client-side scripting languages. </li>
-<li> Evaluate the Pros and Cons of using client-side scripting versus server-side scripting. </li>
-</ol>
-<h2> Topics </h2>
+  <header>
+    <div class = "underline">
+    <h1>             WAREHOUSE / WEATHER              </h1>
+    </div>
+  </header>
 
-<table>
-<tr>
-	<th>Week</th>
-	<th>Lecture</th>
-	<th>Topic</th>
-</tr>
-<tr>
-	<td> 1 </td>
-	<td> 1 </td>
-	<td> Introduction Web Architecture <br> Review HTML and CSS </td>
-</tr>
-<tr>
-	<td> 1 </td>
-	<td> 2 </td>
-	<td> Xml </td>
-</tr>
-<tr>
-	<td> 2 </td>
-	<td> 3 </td>
-	<td> XPATH </td>
-</tr>
-</table>
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo"> STORE</div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu" >
+        <li><a href="simple layoult.html">Home</a></li> 
+        <li><a href="/">About</a></li>
+        <li class="services">
+          <a href="">Products</a>
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/">Dropdown 1 </a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 2</a></li>
+            <li><a href="/">Dropdown 3</a></li>
+            <li><a href="/">Dropdown 4</a></li>
+          </ul>
+        </li>
+        <li><a href="contact copy.html">Contact</a></li>
+        <li><a href="/">Check out</a></li>
+      </div>
+    </ul>
+  </nav>
+
+  <main>
+
+  <div class="row">
+
+    <div class="column">
+      <h2>T shirt </h2> 
+      <p>Small product description<br><strong>Price: &euro; 20,20</strong>
+        <br>
+      <a href="product-page1.html"> 
+        <img src="spiderman.jpeg" width="90%">
+        <br>View Product</a>
+      </p>
+    </div>
+
+    <div class="column">
+      <h2>Product 2</h2> 
+      <p>Small product description<br><strong>Price: &euro; 9.99</strong>
+        <br>
+      <a href="product-page2.html"> 
+        <img src="spiderman.jpeg" width="90%">
+        <br>View Product</a>
+      </p>
+    </div>
+
+    <div class="column">
+      <h2>Product 3</h2> 
+      <p>Small product description<br><strong>Price: &euro; 9.99</strong>
+        <br>
+      <a href="product-page3.html"> 
+        <img src="spiderman.jpeg" width="90%">
+        <br>View Product</a>
+      </p>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="column">
+      <h2>Product 4</h2> 
+      <p>Small product description<br><strong>Price: &euro; 9.99</strong>
+        <br>
+      <a href="product-page4.html"> 
+        <img src="spiderman.jpeg" width="90%">
+        <br>View Product</a>
+      </p>
+    </div>
+
+    <div class="column">
+      <h2>Product 5</h2> 
+      <p>Small product description<br><strong>Price: &euro; 9.99</strong>
+        <br>
+      <a href="product-page5.html"> 
+        <img src="spiderman.jpeg" width="90%">
+        <br>View Product</a>
+      </p>
+    </div>
+
+    <div class="column">
+      <h2>Product 6</h2> 
+      <p>Small product description<br><strong>Price: &euro; 9.99</strong>
+        <br>
+      <a href="product-page6.html"> 
+        <img src="spiderman.jpeg" width="90%">
+        <br>View Product</a>
+      </p>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="column">
+      <h2>Product 7</h2> 
+      <p>Small product description<br><strong>Price: &euro; 9.99</strong>
+        <br>
+      <a href="product-page7.html"> 
+        <img src="spiderman.jpeg" width="90%">
+        <br>View Product</a>
+      </p>
+    </div>
+
+    <div class="column">
+      <h2>Product 8</h2> 
+      <p>Small product description<br><strong>Price: &euro; 9.99</strong>
+        <br>
+      <a href="product-page8.html"> 
+        <img src="spiderman.jpeg" width="90%">
+        <br>View Product</a>
+      </p>
+    </div>
+
+    <div class="column">
+      <h2>Product 9</h2> 
+      <p>Small product description<br><strong>Price: &euro; 9.99</strong>
+        <br>
+      <a href="product-page9.html"> 
+        <img src="spiderman.jpeg" width="90%">
+        <br>View Product</a>
+      </p>
+    </div>
+
+  </div>
+
+  </main>
+
+  
+
+  <footer>
+    <div class = "underline">
+    <p>Copyright 2022 Vinny</p>
+    </div>
+  </footer>
+</div>
 </body>
 </html>
