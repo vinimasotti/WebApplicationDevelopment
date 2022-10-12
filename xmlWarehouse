@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <cd>
+    <title>The Best of Bob Marley</title>
+    <artist>Bob Marley</artist>
+    <country>USA</country>
+    <company>Island records</company>
+    <price>12.90</price>
+    <year>1981</year>
+  </cd>
+  <cd>
+    <title>American Idiot</title>
+    <artist>Green Day</artist>
+    <country>US</country>
+    <company>Reprise Records</company>
+    <price>11.90</price>
+    <year>2004</year>
+  </cd>
+  <cd>
+    <title>Hybrid Theory</title>
+    <artist>Linkin Park</artist>
+    <country>USA</country>
+    <company>Warner Bros</company>
+    <price>8.90</price>
+    <year>2000</year>
+  </cd>
+  <cd>
+    <title>Toxicity</title>
+    <artist>System of a Down</artist>
+    <country>USA</country>
+    <company>Sony Music</company>
+    <price>9.20</price>
+    <year>2001</year>
+  </cd>
+  <cd>
+    <title>Nevermind</title>
+    <artist>Nirvana</artist>
+    <country>USA</country>
+    <company>DGC Records</company>
+    <price>9.90</price>
+    <year>1991</year>
+  </cd>
+  <cd>
+    <title>Blizzard of Ozz</title>
+    <artist>Ozzy Ousborne</artist>
+    <country>UK</country>
+    <company>Jet Records</company>
+    <price>10.90</price>
+    <year>1980</year>
+  </cd>
+  <cd>
+    <title>Sylvias Mother</title>
+    <artist>Dr.Hook</artist>
+    <country>UK</country>
+    <company>CBS</company>
+    <price>8.10</price>
+    <year>1973</year>
+  </cd>
+  <cd>
+    <title>Dookie</title>
+    <artist>Green Day</artist>
+    <country>USA</country>
+    <company>Reprise Records</company>
+    <price>10.50</price>
+    <year>1994</year>
+  </cd>
+  <cd>
+    <title>Infest</title>
+    <artist>Papa Roach</artist>
+    <country>USA</country>
+    <company>DreamWorks Records</company>
+    <price>10.80</price>
+    <year>2000</year>
+  </cd>
+  <cd>
+    <title>Take Off Your Pants</title>
+    <artist>Blink 182</artist>
+    <country>USA</country>
+    <company>Geffen Records</company>
+    <price>8.70</price>
+    <year>2001</year>
+  </cd>
+  <cd>
+    <title>Acustico MTV</title>
+    <artist>Charlie Brown Jr.</artist>
+    <country>Brazil</country>
+    <company>MTV</company>
+    <price>10.90</price>
+    <year>2003</year>
+  </cd>
+  <cd>
+    <title>Famous Monsters</title>
+    <artist>Misfits</artist>
+    <country>USA</country>
+    <company>Roadrunner Records</company>
+    <price>10.20</price>
+    <year>1999</year>
+  </cd>
+  </catalog>
