@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog>
-  <cd>
+  <cd id="cd101">
     <title>The Best of Bob Marley</title>
     <artist>Bob Marley</artist>
     <country>USA</country>
@@ -9,7 +9,7 @@
     <year>1981</year>
     <quantity>10</quantity>
   </cd>
-  <cd>
+  <cd id="cd102">
     <title>American Idiot</title>
     <artist>Green Day</artist>
     <country>US</country>
@@ -18,7 +18,7 @@
     <year>2004</year>
     <quantity>8</quantity>
   </cd>
-  <cd>
+  <cd id="cd103">
     <title>Hybrid Theory</title>
     <artist>Linkin Park</artist>
     <country>USA</country>
@@ -27,7 +27,7 @@
     <year>2000</year>
     <quantity>3</quantity>
   </cd>
-  <cd>
+  <cd id="cd104">
     <title>Toxicity</title>
     <artist>System of a Down</artist>
     <country>USA</country>
@@ -36,7 +36,7 @@
     <year>2001</year>
     <quantity>4</quantity>
   </cd>
-  <cd>
+  <cd id="cd105">
     <title>Nevermind</title>
     <artist>Nirvana</artist>
     <country>USA</country>
@@ -45,7 +45,7 @@
     <year>1991</year>
     <quantity>6</quantity>
   </cd>
-  <cd>
+  <cd id="cd106">
     <title>Blizzard of Ozz</title>
     <artist>Ozzy Ousborne</artist>
     <country>UK</country>
@@ -54,7 +54,7 @@
     <year>1980</year>
     <quantity>5</quantity>
   </cd>
-  <cd>
+  <cd id="cd107">
     <title>Queen II</title>
     <artist>Queen</artist>
     <country>UK</country>
@@ -63,7 +63,7 @@
     <year>1974</year>
     <quantity>4</quantity>
   </cd>
-  <cd>
+  <cd id="cd108">
     <title>Dookie</title>
     <artist>Green Day</artist>
     <country>USA</country>
@@ -72,7 +72,7 @@
     <year>1994</year>
     <quantity>2</quantity>
   </cd>
-  <cd>
+  <cd id="cd109">
     <title>Infest</title>
     <artist>Papa Roach</artist>
     <country>USA</country>
@@ -81,7 +81,7 @@
     <year>2000</year>
     <quantity>1</quantity>
   </cd>
-  <cd>
+  <cd id="cd110">
     <title>Take Off Your Pants</title>
     <artist>Blink 182</artist>
     <country>USA</country>
@@ -90,7 +90,7 @@
     <year>2001</year>
     <quantity>4</quantity>
   </cd>
-  <cd>
+  <cd id="cd111">
     <title>Acustico MTV</title>
     <artist>Charlie Brown Jr.</artist>
     <country>Brazil</country>
@@ -99,7 +99,7 @@
     <year>2003</year>
     <quantity>6</quantity>
   </cd>
-  <cd>
+  <cd id="cd112">
     <title>Famous Monsters</title>
     <artist>Misfits</artist>
     <country>USA</country>
