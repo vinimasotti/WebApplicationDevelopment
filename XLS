@@ -1,24 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template match="/">
-<html> 
-<body>
-  <h2>CD Warehouse</h2>
-  <table border="1">
-    <tr bgcolor="#9acd32">
-      <th style="text-align:left">Title</th>
-      <th style="text-align:left">Artist</th>
-      <th style="text-align:left">Price</th>
-    </tr>
-    <xsl:for-each select="catalog/cd">
-    <tr>
-      <td><xsl:value-of select="title"/></td>
-      <td><xsl:value-of select="artist"/></td>
-      <td><xsl:value-of select="price"/></td>
-    </tr>
-    </xsl:for-each>
-  </table>
-</body>
-</html>
-</xsl:template>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    <xsl:output method="html"/>
+
+    <!-- TODO customize transformation rules 
+         syntax recommendation http://www.w3.org/TR/xslt 
+    -->
+    <xsl:template match="/">
+        <html>
+            
+            <head>
+                <title>CD Warehouse</title>
+            </head>
+            
+            <body>
+                <h1 style = "border:4px solid Tomato;"></h1>
+                <h1>CD - All titles</h1>
+                <xsl:apply-templates select="catalog/cd"/>
+                 <h1>CD Artist</h1>
+                <xsl:apply-templates select="/catalog/cd/Artist"/>
+                <h1>American CD </h1>
+                <xsl:apply-templates select="/catalog/cd/country[contains(string(), 'USA')]"/>  
+            </body>
+        </html>
+    </xsl:template>
+    
+    <xsl:template match="catalog">
+        <p>
+            <xsl:value-of select="."/>
+            
+        </p>
+    </xsl:template>
+   
+    <xsl:template match="title">
+        
+        <ul>
+            <li>
+                <xsl:value-of select="."/>
+            </li>
+        </ul>
+        
+    </xsl:template>
+    
+    <xsl:template match="country">
+        <xsl:value-of select="../@id"/> 
+         
+    </xsl:template>
+    
+       <xsl:template match="country">
+        <xsl:value-of select="../@id"/>
+           
+    </xsl:template>
+    
+    
+    
+    
+    <!--<xsl:template  match ="book[price>'30'">
+        <p>
+            <xsl: value-of select="title"/>
+            ,
+            <xsl: value-of select="price"/>
+        </p>
+    </xsl:template> -->
+    
+
 </xsl:stylesheet>
+
