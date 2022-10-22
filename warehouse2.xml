@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+
+  <cd id="cd101">
+    <name>The Best of Bob Marley</name>
+    <description>Artist: Bob Marley, 1981, USA, Island records</description>
+    <quantity>3 </quantity> 
+    <UnitPrice>12.90</UnitPrice>
+  </cd>
+
+  <cd id="cd102">
+    <name>American Idiot</name>
+    <description>Artist: Green Day, 2004, USA, Reprise Records</description>
+    <quantity>3 </quantity> 
+    <UnitPrice>12.90</UnitPrice>
+  </cd>
+
+  <cd id="cd103">
+    <name>Hybrid Theory</name>
+    <description>Artist: Linkin Park, 2004, USA, Warner Bros</description>
+    <quantity>3 </quantity> 
+    <UnitPrice>12.90</UnitPrice>
+    </cd>
+
+  <cd id="cd104">
+    <name>Toxicity</name>
+    <description>Artist: System of a Down, 2001, USA, Sony Music</description>
+    <quantity>3 </quantity> 
+    <UnitPrice>12.90</UnitPrice>
+  </cd>
+
+    <cd id="cd105">
+    <name>Nevermind</name>
+    <description>Artist: Nirvana, 1991, USA, DGC Records </description>
+    <quantity>3 </quantity> 
+    <UnitPrice>12.90</UnitPrice>
+  </cd>
+
+    <cd id="cd106">
+    <name>Blizzard of Ozz</name>
+    <description>Artist: Ozzy Ousborne, 1980, UK, Jet Records</description>
+    <quantity>3 </quantity> 
+    <UnitPrice>10.90</UnitPrice>
+  </cd>
+
+  <cd id="cd107">
+    <name>Sylvias Mother</name>
+    <description>Artist: Dr. Hook, 1973, UK, CBS</description>
+    <quantity>3 </quantity> 
+    <UnitPrice>8.10</UnitPrice>
+  </cd>
+
+   <cd id="cd108">
+    <name>Dookie</name>
+    <description>Artist: Green Day, 1994, USA, Reprise Records</description>
+    <quantity>3 </quantity> 
+    <UnitPrice>10.50</UnitPrice>
+  </cd>
+
+    <cd id="cd109">
+    <name>Infest</name>
+    <description>Artist: Papa Roach, 2000, USA, DreamWorks Records</description>
+    <quantity>3 </quantity> 
+    <UnitPrice>10.80</UnitPrice>
+  </cd>
+
+     <cd id="cd110">
+    <name>Take Off Your Pants</name>
+    <description>Artist: Blink 192, 2001, USA, Geffen Records</description>
+    <quantity>3 </quantity> 
+    <UnitPrice>10.80</UnitPrice>
+  </cd>
+
+  <cd id="cd111">
+    <name>Acustico MTV</name>
+    <description>Artist: Charlie Brown Jr., 2003, Brazil, MTV</description>
+    <quantity>3 </quantity> 
+    <UnitPrice>10.80</UnitPrice>
+  </cd>
+
+  <cd id="cd112">
+    <name>Famous Monsters</name>
+    <description>Artist: Misfits, 1999, USA, Roadrunner Records</description>
+    <quantity>3 </quantity> 
+    <UnitPrice>10.80</UnitPrice>
+  </cd>
+
+  </root>
