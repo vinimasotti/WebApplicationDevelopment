@@ -60,9 +60,20 @@
   </script>
   <br>
   <script>
-    document.write("hello")
+   function myFunction() {
+      var f = parseFloat(prompt("Please enter a Fahrenheit"));
+      
+      
+      
+      var num3 = (5*(f - 32)) /9 ;
+      
+     
+      document.write("The result is " + num3);
+    }
     </script>
 
-        
+ <br>
+    
+<br>
         
    </body>
